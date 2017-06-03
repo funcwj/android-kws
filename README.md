@@ -8,7 +8,7 @@
 
 ### Notes
 * nnet and fbank-extractor interface are called through JNI
-* trainning scripts are in folder [scripts](scripts), and hdf5tobin.py aims to transfer the model into binary which could be read by the JNI.
+* training scripts are in folder [scripts](scripts), and hdf5tobin.py aims to transfer the model into binary which could be read by the JNI.
 * use [OpenBlas](https://github.com/xianyi/OpenBLAS) to optimize forword process like(need to modify the gradle file and add Android.mk and Application.mk):
 ```c
 void forword(vector x, matrix w, vector y, vector b) {
