@@ -18,4 +18,4 @@ void forword(vector x, matrix w, vector y, vector b) {
 ```
 
 ### Snapshots
-<img src="snapshots/shots.png", width="400">
+<img src="snapshots/shots.png" width="400">
