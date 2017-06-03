@@ -11,4 +11,4 @@
 * trainning scripts are in folder [scripts](scripts), and hdf5tobin.py aims to transfer the model into binary which could be read by the JNI.
 
 ### Snapshots
-[view](snaptshots/shots.png)
+![view](snapshots/shots.png)
